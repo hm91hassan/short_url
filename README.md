@@ -63,6 +63,10 @@ npm run dev
 
 Go into .env file and change Database credentials.
 
+```bash
+cp .env.example .env
+```
+
 # env setup
 
 ```bash
