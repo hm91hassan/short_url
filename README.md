@@ -52,10 +52,6 @@ NPM dependencies
 npm install
 ```
 
- dependencies
-```
-npm install
-```
 
 Using Laravel Mix 
 
@@ -87,4 +83,9 @@ Generating a New Application Key
 php artisan key:generate
 ```
 
-## Contributors
+Run Project
+```
+php artisan serve
+```
+
+
