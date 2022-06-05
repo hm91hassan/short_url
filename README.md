@@ -4,10 +4,6 @@
 
 This is a short url project I made mostly using Laravel 9 and Vue JS
 
-| [Features][] | [Requirements][] | [Install][] | [How to setting][] | [Contributors][] | [License][] |
-|---|---|---|---|---|---|
-
-
 
 ## Requirements
 
@@ -56,6 +52,11 @@ NPM dependencies
 npm install
 ```
 
+ dependencies
+```
+npm install
+```
+
 Using Laravel Mix 
 
 ```
@@ -64,7 +65,14 @@ npm run dev
 
 ## How to setting 
 
-Go into .env file and change Database and Email credentials.
+Go into .env file and change Database credentials.
+
+# env setup
+
+```bash
+GOOGLE_API_KEY="" //Google API key 
+GOOGLE_CLIENT_ID=""  // Google Clinet ID / project ID
+```
 
 ```
 php artisan migrate
