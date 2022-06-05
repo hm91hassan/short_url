@@ -77,10 +77,6 @@ GOOGLE_CLIENT_ID=""  // Google Clinet ID / project ID
 ```
 php artisan migrate
 ```
-
-```
-php artisan db:seed
-```
 	
 Generating a New Application Key
 ```
