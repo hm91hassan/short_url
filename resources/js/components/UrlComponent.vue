@@ -4,7 +4,7 @@
             <div class="col-md-8">
                 <div class="card mt-5">
                     <div class="card-header">
-                        <h2 class="float-start">Short Url Generatior</h2>
+                        <h2 class="float-start">Short Url Generator</h2>
                         <button class="btn btn-sm float-end btn-danger"  id="basic-addon2" @click="resetForm" v-if="long_url">Reset</button>
 
 

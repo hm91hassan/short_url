@@ -41666,7 +41666,7 @@ var render = function () {
           _c("div", { staticClass: "card mt-5" }, [
             _c("div", { staticClass: "card-header" }, [
               _c("h2", { staticClass: "float-start" }, [
-                _vm._v("Short Url Generatior"),
+                _vm._v("Short Url Generator"),
               ]),
               _vm._v(" "),
               _vm.long_url
