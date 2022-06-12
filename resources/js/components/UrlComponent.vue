@@ -4,27 +4,20 @@
             <div class="col-md-8">
                 <div class="card mt-5">
                     <div class="card-header">
-                        <h2 class="float-start">Short Url Generator</h2>
-                        <button class="btn btn-sm float-end btn-danger"  id="basic-addon2" @click="resetForm" v-if="long_url">Reset</button>
-
-
-                    </div>
+                        <h2 class="text-center text-uppercase fs-4 fw-bold mt-2">Short Link Generator</h2>
+                   </div>
 
                     <div class="card-body">
                         <form ref="form" method="post" @submit.prevent="SubmitForm">
                             <div class="input-group mb-12">
                                 <input v-model="long_url" type="text" class="form-control" placeholder="Enter Your URL">
+                                <i class="clear-btn input-group-text mdi mdi-close" v-if="long_url" @click="resetForm"></i>
                                 <button class="input-group-text btn-success"  id="basic-addon2" type="submit">Submit</button>
-
                            </div>
+
+
                        </form>
-
-
                     </div>
-
-
-
-
                 </div>
                 <div class="card mt-5" v-if="data.url">
                       <div class="card-body">

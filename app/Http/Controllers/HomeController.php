@@ -41,7 +41,7 @@ class HomeController extends Controller
     public function store(Request $request)
     {
         $validator = validator()->make($request->all(), [
-            'long_url' => 'required|unique:shortners,long_url',
+            'long_url' => 'required|url|unique:shortners,long_url',
         ]);
 
         if ($validator->fails()) {

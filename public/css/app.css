@@ -11287,3 +11287,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.clear-btn {
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+  background: #f8fafc;
+  border-left: none;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}

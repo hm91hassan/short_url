@@ -8,3 +8,15 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+.clear-btn {
+    z-index: 10;
+    pointer-events: auto;
+    cursor: pointer;
+    background: #f8fafc;
+    border-left: none;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}

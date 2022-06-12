@@ -5440,13 +5440,6 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -41664,23 +41657,7 @@ var render = function () {
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card mt-5" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c("h2", { staticClass: "float-start" }, [
-                _vm._v("Short Url Generator"),
-              ]),
-              _vm._v(" "),
-              _vm.long_url
-                ? _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-sm float-end btn-danger",
-                      attrs: { id: "basic-addon2" },
-                      on: { click: _vm.resetForm },
-                    },
-                    [_vm._v("Reset")]
-                  )
-                : _vm._e(),
-            ]),
+            _vm._m(0),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _c(
@@ -41718,6 +41695,14 @@ var render = function () {
                         },
                       },
                     }),
+                    _vm._v(" "),
+                    _vm.long_url
+                      ? _c("i", {
+                          staticClass:
+                            "clear-btn input-group-text mdi mdi-close",
+                          on: { click: _vm.resetForm },
+                        })
+                      : _vm._e(),
                     _vm._v(" "),
                     _c(
                       "button",
@@ -41801,7 +41786,20 @@ var render = function () {
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-header" }, [
+      _c(
+        "h2",
+        { staticClass: "text-center text-uppercase fs-4 fw-bold mt-2" },
+        [_vm._v("Short Link Generator")]
+      ),
+    ])
+  },
+]
 render._withStripped = true
 
 
